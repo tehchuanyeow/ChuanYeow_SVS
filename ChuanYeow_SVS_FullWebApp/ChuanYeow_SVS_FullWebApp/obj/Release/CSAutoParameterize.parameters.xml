@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SVSEntities-Web.config Connection String" description="SVSEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Model.csdl|res://*/Models.Model.ssdl|res://*/Models.Model.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=transactionscy.database.windows.net;initial catalog=SVS;user id=chuanyeow;password=Toytproductions147852369;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\STUDENT\\Desktop\\ChuanYeow_SVS\\ChuanYeow_SVS_FullWebApp\\ChuanYeow_SVS_FullWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SVSEntities']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,58 @@
+﻿@model ChuanYeow_SVS_FullWebApp.Models.Treatment
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Treatment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Notes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Notes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Owner.Surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Owner.Surname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pet.PetName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pet.PetName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Procedure.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Procedure.Description)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

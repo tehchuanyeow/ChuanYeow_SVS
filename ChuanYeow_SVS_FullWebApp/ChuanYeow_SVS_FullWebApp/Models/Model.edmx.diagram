@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c7dfd4c260274ddbb6a6edb8b5a2b021" Name="Diagram1">
+        <EntityTypeShape EntityType="SVSModel.Owner" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SVSModel.Pet" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SVSModel.Procedure" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SVSModel.Treatment" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <AssociationConnector Association="SVSModel.OwnerID_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="SVSModel.OwnerID_FK_Pet" ManuallyRouted="false" />
+        <AssociationConnector Association="SVSModel.PetID_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="SVSModel.ProcedureID_FK" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
