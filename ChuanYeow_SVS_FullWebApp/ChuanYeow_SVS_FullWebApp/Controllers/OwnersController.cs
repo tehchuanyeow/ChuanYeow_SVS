@@ -67,12 +67,6 @@ namespace ChuanYeow_SVS_FullWebApp.Controllers
                     db.SaveChanges();
                     return RedirectToAction("Index");
                 }
-                else
-                {
-                    var logger = NLog.LogManager.GetCurrentClassLogger();
-                    logger.Debug("Validation Failure Exception");
-                    throw new ValidationFailureException(owner.ToString());
-                }
             }
             catch(ValidationFailureException e)
             {
@@ -80,7 +74,9 @@ namespace ChuanYeow_SVS_FullWebApp.Controllers
             }
             catch(Exception e)
             {
-                
+                var logger = NLog.LogManager.GetCurrentClassLogger();
+                logger.Debug("Validation Failure Exception");
+                throw new ValidationFailureException(owner.ToString());
             }
             return View(owner);
         }

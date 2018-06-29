@@ -1,1 +1,3 @@
-2018-06-29 17:22:29.1071|TRACE|ChuanYeow_SVS_FullWebApp.Controllers.HomeController|Application Launched
+2018-06-29 17:34:35.2060|TRACE|ChuanYeow_SVS_FullWebApp.Controllers.HomeController|Application Launched
+2018-06-29 17:34:48.6653|DEBUG|ChuanYeow_SVS_FullWebApp.Controllers.OwnersController|Validation Failure Exception
+2018-06-29 17:34:48.6653|DEBUG|ChuanYeow_SVS_FullWebApp.Controllers.OwnersController|Validation Failure Exception
